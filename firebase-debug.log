@@ -1,0 +1,37 @@
+[debug] [2018-07-06T18:42:57.544Z] ----------------------------------------------------------------------
+[debug] [2018-07-06T18:42:57.546Z] Command:       /Users/bstaub/.nvm/versions/node/v8.11.3/bin/node /Users/bstaub/.nvm/versions/node/v8.11.3/bin/firebase serve
+[debug] [2018-07-06T18:42:57.546Z] CLI Version:   3.19.3
+[debug] [2018-07-06T18:42:57.546Z] Platform:      darwin
+[debug] [2018-07-06T18:42:57.546Z] Node Version:  v8.11.3
+[debug] [2018-07-06T18:42:57.547Z] Time:          Fri Jul 06 2018 20:42:57 GMT+0200 (CEST)
+[debug] [2018-07-06T18:42:57.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-06T18:42:57.559Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-06T18:42:57.560Z] > authorizing via signed-in user
+[debug] [2018-07-06T18:42:57.562Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/shop-a3f03  
+  
+ Fri Jul 06 2018 20:42:57 GMT+0200 (CEST)
+[debug] [2018-07-06T18:42:58.348Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T18:42:58.349Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/shop-a3f03/tokens  
+  
+ Fri Jul 06 2018 20:42:58 GMT+0200 (CEST)
+[debug] [2018-07-06T18:42:59.158Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T18:42:59.159Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/shop-a3f03  
+  
+ Fri Jul 06 2018 20:42:59 GMT+0200 (CEST)
+[debug] [2018-07-06T18:43:00.079Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/bstaub/WebstormProjects/projekt2api'...
+[info] 
+[debug] [2018-07-06T18:43:00.082Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/528690297046/clients/_:getWebAppConfig  
+  
+ Fri Jul 06 2018 20:43:00 GMT+0200 (CEST)
+[debug] [2018-07-06T18:43:00.700Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-07-06T18:43:00.732Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/528690297046/clients/_:getWebAppConfig  
+  
+ Fri Jul 06 2018 20:43:00 GMT+0200 (CEST)
+[debug] [2018-07-06T18:43:01.204Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+

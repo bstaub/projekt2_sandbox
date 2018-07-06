@@ -6,13 +6,14 @@ document.addEventListener("DOMContentLoaded", event =>{
 
   const myPost = db.collection('posts').doc('firstpost');
 
-  myPost.get()
-    .then(doc =>{
-      const data = doc.data();
-      document.write(data.title + '<br>')
-      document.write(data.createdAt)
+  myPost.onSnapshot(doc =>{
 
-    });
+    const data = doc.data();
+    document.write(data.title + '<br>')
+    document.write(data.createdAt +  '<br>')
+
+  })
+
 
 
 });

@@ -24,6 +24,8 @@ http://localhost:3000/categories?_expand=prodcts
 
 ### Firebase Tutorial
 
+https://angularfirebase.com/lessons/the-ultimate-beginners-guide-to-firebase/
+
 ```
 npm i firebase-tools -g
 firebase login
