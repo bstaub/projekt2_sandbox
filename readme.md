@@ -30,5 +30,6 @@ firebase login
 firebase init hosting
 firebase serve
 firebase deploy
+touch public/app.js
 ```
 
