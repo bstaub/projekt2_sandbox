@@ -1,0 +1,26 @@
+{
+  "products": [
+    { "id":1, "name":"erstes Produkt", "description":"Beschreibung erstes Produkt", "category1":"1", "category2":"2", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03", "categoryId": 1 },
+    { "id":2, "name":"zweites Produkt", "description":"Beschreibung zweites Produkt", "category1":"1", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
+    { "id":3, "name":"drittes Produkt", "description":"Beschreibung drittes Produkt", "category1":"3", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
+    { "id":4, "name":"viertes Produkt", "description":"Beschreibung viertes Produkt", "category1":"4", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
+    { "id":5, "name":"fünftes Produkt", "description":"Beschreibung fünftes Produkt", "category1":"5", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" }
+  ],
+  "categories":
+  [
+    { "id": 1, "name": "Hauptkategorie Garten", "level": 1, "parentCategory": null },
+    { "id": 2, "name": "Sub Garten 1", "level": 2, "parentCategory": 1 },
+    { "id": 3, "name": "Sub Garten 2", "level": 2, "parentCategory": 1 },
+    { "id": 4, "name": "Sub Garten 3", "level": 2, "parentCategory": 1 },
+    { "id": 5, "name": "Hauptkategorie Computer", "level": 1, "parentCategory": null },
+    { "id": 6, "name": "Sub Laptop", "level": 2, "parentCategory": 5 },
+    { "id": 7, "name": "Sub Ipad", "level": 2, "parentCategory": 5 }
+  ],
+  "users": [
+    { "id":1, "lastName":"Polak", "firstName":"Martin", "email":"martinpolak.mail@gmail.com","natel":"098 789 56 43", "addres":"Längweiherstrasse 18", "zip":"6014", "location":"Luzern",  "country":"CH", "role":"admin","status":"activ","createdDate":"30-06-2018 03:03","lastLoginDate":"30-06-2018 03:03","validated":"1" },
+    { "id":2, "lastName":"Staub", "firstName":"Bruno", "email":"bruno.staub@gmail.com","natel":"079 479 51 69", "addres":"Unterlachenstrasse 17", "zip":"6005", "location":"Luzern",  "country":"CH", "role":"admin","status":"activ","createdDate":"30-06-2018 03:03","lastLoginDate":"30-06-2018 03:03","validated":"1" },
+    { "id":3, "lastName":"Muster", "firstName":"Hans", "email":"hans.muster@gmail.com","natel":"056 449 51 39", "addres":"Musteralee 77", "zip":"6035", "location":"Emmenbrücke",  "country":"CH", "role":"user","status":"inactiv","createdDate":"30-06-2018 03:03","lastLoginDate":"30-06-2018 03:03","validated":"0" },
+    { "id":4, "lastName":"Anonymous", "firstName":"Peter", "email":"peter.ano@gmail.com","natel":"056 439 51 19", "addres":"Musteralee 74", "zip":"6035", "location":"Emmenbrücke",  "country":"CH", "role":"user","status":"activ","createdDate":"30-06-2018 03:03","lastLoginDate":"30-06-2018 03:03","validated":"0" }
+  ]
+}
+
