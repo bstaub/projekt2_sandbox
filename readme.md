@@ -22,3 +22,13 @@ http://localhost:3000/products?_embed=categories
 http://localhost:3000/categories?_expand=prodcts
 ```
 
+### Firebase Tutorial
+
+```
+npm i firebase-tools -g
+firebase login
+firebase init hosting
+firebase serve
+firebase deploy
+```
+

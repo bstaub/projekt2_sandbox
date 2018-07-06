@@ -1,10 +1,22 @@
 {
   "products": [
-    { "id":1, "name":"erstes Produkt", "description":"Beschreibung erstes Produkt", "category1":"1", "category2":"2", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03", "categoryId": 1 },
-    { "id":2, "name":"zweites Produkt", "description":"Beschreibung zweites Produkt", "category1":"1", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
-    { "id":3, "name":"drittes Produkt", "description":"Beschreibung drittes Produkt", "category1":"3", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
-    { "id":4, "name":"viertes Produkt", "description":"Beschreibung viertes Produkt", "category1":"4", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
-    { "id":5, "name":"fünftes Produkt", "description":"Beschreibung fünftes Produkt", "category1":"5", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" }
+    { "id":1, "name":"erstes Produkt", "description":"Beschreibung erstes Produkt", "category1":"1", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03"},
+    { "id":2, "name":"zweites Produkt", "description":"Beschreibung zweites Produkt", "category1":"1", "category2":"2", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
+    { "id":3, "name":"drittes Produkt", "description":"Beschreibung drittes Produkt", "category1":"1", "category2":"3", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
+    { "id":4, "name":"viertes Produkt", "description":"Beschreibung viertes Produkt", "category1":"2", "category2":"1", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" },
+    { "id":5, "name":"fünftes Produkt", "description":"Beschreibung fünftes Produkt", "category1":"2", "category2":"2", "price":"1", "picture":"http://dummy.com/1.jpg", "creadedDate":"30-06-2018 03:03" }
+  ],
+  "category1":
+  [
+    { "id": 1, "name": "SubKat1_1", "level": 1, "productId": 1  },
+    { "id": 2, "name": "SubKat1_2", "level": 1, "productId": 2  },
+    { "id": 3, "name": "SubKat1_2", "level": 1, "productId": 3  }
+  ],
+  "category2":
+  [
+    { "id": 1, "name": "SubKat2_1", "level": 2, "productId": 1  },
+    { "id": 2, "name": "SubKat2_2", "level": 2, "productId": 2  }
+
   ],
   "categories":
   [
